@@ -61,3 +61,7 @@ En este caso, hemos añadido al [script del ejercicio 5](scripts/Ejercicio5Y11.c
 ---
 
 ### Ejercicio 12.
+En este caso, ha sido necesario modificar el [script del ejericio 6](scripts/Ejercicio6Y12.cs) y utilizar el método `LookAt()` pasándole el **transform de la esfera**. De esta manera, hemos logrado que el cubo rotase en su eje para mirarla siempre directamente.
+
+### Ejercicio 13.
+Finalmente, el [script](scripts/Ejercicio13.cs) para el último ejercicio se ha basado en utilizar la propiedad `eulerAngles` para obtener un `Vector3` con la rotación del cubo, para luego hacerlo girar en el valor indicado por `Input.GetAxis("Horizontal")`.
